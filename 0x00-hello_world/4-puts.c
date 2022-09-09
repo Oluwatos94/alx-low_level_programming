@@ -1,12 +1,11 @@
 #include <stdio.h>
-
 /**
- * main - Entry point
- *
- * Reture: Always 0 (Success)
+ * main-entry point for the program
+ * Return:0 if no error, return non zero if errors
  */
- int main(void)
- {
-	 puts("\""Programming is like building a multilingual puzzle);
-	 return (0);
- }
+int main(void)
+{
+	puts("\"programming is like building a multilingual puzzle");
+	return (0);
+}
+
