@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main-entry point for the program
- * Return:0 if no error, return non zero if errors
+ * main-Serves as the entry point for the program
+ * Return: By default returns 0 if no errors otherwise returns non-0 value
  */
 int main(void)
 {
