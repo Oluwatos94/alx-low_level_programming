@@ -7,16 +7,11 @@
  */
 int main(void)
 {
-	int i;
+	int alphabet;
 
-	for (i = 48; i < 58; i++)
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-		putchar(i);
-		if (i != 57)
-		{
-			putchar(',');
-			putchar(' ');
-		}
+		putchar(alphabet);
 	}
 	putchar('\n');
 	return (0);
