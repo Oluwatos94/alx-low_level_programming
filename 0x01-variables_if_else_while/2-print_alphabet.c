@@ -1,17 +1,22 @@
-#include <sdtio.h>
+#include <stdio.h>
 
 /**
  * main - entry point
  *
- * Return: Always 0 (Success)
+ * Return: Always 0
  */
 int main(void)
 {
-	int alphabet;
+	int i;
 
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	for (i = 48; i < 58; i++)
 	{
-		putchar(alphabet);
+		putchar(i);
+		if (i != 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
