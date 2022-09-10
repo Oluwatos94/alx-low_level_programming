@@ -1,4 +1,4 @@
-#include <stdi.h>
+#include <stdio.h>
 
 /**
  * main - print hexadecimal numbers base with lowwercase
