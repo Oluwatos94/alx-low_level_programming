@@ -3,6 +3,8 @@
 /**
  * main - prints "with proper grammar, but outcome
  * is a piece of art", them followed by new line.
+ *
+ * Return: Always 0
  */
 int main(void)
 {
