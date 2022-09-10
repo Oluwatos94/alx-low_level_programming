@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print hexadecimal numbers base with lowwercase
+ * main - print hexadecimal numbers base with lowercase
  *
  * Return: Always 0 (Success)
  */
