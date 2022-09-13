@@ -2,10 +2,10 @@
 
 /**
  * main - alphabet
- * prints alphabet_x10 - print a-z 10 times
+ * prints alphabet_x10 - print a - z ten times
  *
  */
-int main(void)
+void print_alphabet_x10(void)
 {
 	int i;
 	char j;
