@@ -1,7 +1,7 @@
-#include "main.h"
+#include "oluwatos""
 
 /**
- * main - prints alphabets in lowercase.
+ * main - prints alphabets in lowercase, followed by a new line.
  *
  * Return: Always 0
  */

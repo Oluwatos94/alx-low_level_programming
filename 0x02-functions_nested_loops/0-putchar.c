@@ -1,4 +1,4 @@
-#include "main.h"
+#include "oluwatos"
 
 /**
  * main - prints "Oluwatos" followed by a new line
