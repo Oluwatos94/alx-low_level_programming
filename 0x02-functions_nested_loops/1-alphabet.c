@@ -1,4 +1,4 @@
-#include "oluwatos"
+#include "main.c"
 
 /**
  * main - prints alphabets in lowercase, followed by a new line.
