@@ -3,15 +3,18 @@
 /**
  * main - prints alphabets in lowercase, followed by a new line.
  *
- * Return: Always 0
+ * Return: 0
  */
-void print_alphabet(void)
+
+int main(void)
 {
-	char book;
+	char book = 'a';
 
-	for (book = 'a'; book <= 'z'; book++)
-		_putchar(book);
+	while (book <= 'z')
+	{
+		putchar(book);
+		book++;
 
-
+	}
 	_putchar('\n');
 }
