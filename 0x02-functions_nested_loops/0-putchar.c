@@ -1,4 +1,5 @@
 #include <main.h>
+#include <stdio.h>
 
 /**
  * main - prints "Oluwatos" followed by a new line
