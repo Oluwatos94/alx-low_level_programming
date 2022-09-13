@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
  * main - prints "Oluwatos" followed by a new line
@@ -16,7 +16,7 @@ int main(void)
 	_putchar('t');
 	_putchar('o');
 	_putchar('s');
+	_putchar('\n');
 
 	return (0);
 }
-
