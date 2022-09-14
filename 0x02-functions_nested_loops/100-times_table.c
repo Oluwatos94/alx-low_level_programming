@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * Times_table - prints times table
- * @n: times table to use
+ * print_imes_table - prints times table of the input,
+ * starting with 0.
+ * @n: The value of times table to be printed.
  * Return: void
  */
 
@@ -47,6 +48,5 @@ void print_times_table(int n)
 		}
 		_putchar('\n');
 		a++;
-
 	}
 }
