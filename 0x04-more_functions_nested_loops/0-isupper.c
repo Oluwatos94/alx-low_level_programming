@@ -9,7 +9,7 @@
 
 int _isupper(int c)
 {
-	if (c >= 'B' && c <= 'D')
+	if (c >= 'A' && c <= 'Z')
 		return (1);
 
 	else
