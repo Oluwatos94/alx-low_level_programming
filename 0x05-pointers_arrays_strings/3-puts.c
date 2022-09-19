@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _puts - puts to stdout
+ * _puts - pusts to stdout
  * @str: params
+ *
  */
-
-void _puts(char, *str)
+void _puts(char *str)
 {
 	int i = 0;
 
@@ -14,6 +14,5 @@ void _puts(char, *str)
 		_putchar(str[i]);
 		i++;
 	}
-
 	_putchar('\n');
 }

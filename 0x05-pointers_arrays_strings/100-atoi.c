@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * _atol - converts a string to an integer.
+ * _atoi - converts a string to an integer.
  * @s: params
- *
  * Return: something
  */
 int _atoi(char *s)
@@ -12,7 +11,7 @@ int _atoi(char *s)
 
 	while (*(s + count) != '\0')
 	{
-		if (size > 0 && (*(s + count) < 0 || *(s + count) > '9'))
+		if (size > 0 && (*(s + count) < '0' || *(s + count) > '9'))
 			break;
 		if (*(s + count) == '-')
 			k *= -1;
@@ -21,12 +20,10 @@ int _atoi(char *s)
 		{
 			if (size > 0)
 				m *= 10;
-
-			size++;
+			size++
 		}
 		count++;
 	}
-
 	for (i = count - size; i < count; i++)
 	{
 		j = j + ((*(s + i) - 48) * m);
