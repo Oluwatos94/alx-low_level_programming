@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * _put - put to stdout
+ * _puts - puts to stdout
  * @str: params
  */
-void _puts(char *str)
+
+void _puts(char, *str)
 {
 	int i = 0;
 
