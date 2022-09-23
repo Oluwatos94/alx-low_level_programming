@@ -3,7 +3,7 @@
 /**
  * main - Does magic
  *
- * Return: Always magic
+ * Return: 0.
  */
 
 int main(void)
