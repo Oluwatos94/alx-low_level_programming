@@ -10,7 +10,7 @@ int _strlen(char *s)
 	unsigned int a;
 
 	a = 0;
-	while (s[a] = '\0') /*count character of string*/
+	while (s[a] != '\0') /*count character of string*/
 	{
 		a++;
 	}
