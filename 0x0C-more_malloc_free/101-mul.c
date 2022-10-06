@@ -16,9 +16,9 @@ int _atoi_digit(char x)
 }
 
 /**
- * _isNumber - Defines if a string is a number.
+ * _isNumber - Define if a string is a number.
  * @argv: pointer to string.
- * @Return: success (0)
+ * Return: success (0).
  */
 int _isNumber(char *argv)
 {
@@ -32,7 +32,8 @@ int _isNumber(char *argv)
 
 /**
  * _calloc - allocates array of size * nmemb.
- * @nmemb: number of elemens
+ * @nmemb: number of elemens.
+ * @size: size of element
  * Return: pointer to array
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
@@ -51,11 +52,11 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 /**
  * mul_array - multiply two arrays
- * @a1- first array
- * @len1: length of array 1
- * @a2: char
+ * @a1: first array
+ * @len1: length of array a1
+ * @a2: char.
  * @a3: array for result
- * @lena: length of array 3
+ * @lena: length of array a3
  * Return: pointer to array.
  */
 void *mul_array(char *a1, int len1, char a2, char *a3, int lena)
@@ -65,7 +66,7 @@ void *mul_array(char *a1, int len1, char a2, char *a3, int lena)
 	k = lena;
 	for (i = len1 - 1;  i >= 0; i--)
 	{
-		mul += (a1[i] - '0') * (a2 - '0') + (a3[k] - '0'0);
+		mul += (a1[i] - '0') * (a2 - '0') + (a3[k] - '0');
 		a3[k] = (mul % 10) + '0';
 		mul /= 10;
 		k--;
@@ -85,7 +86,7 @@ void print_array(char *a, int nb)
 	{
 		i++;
 	}
-	for (; i < nb i++)
+	for (; i < nb; i++)
 	{
 		_putchar(a[i]);
 	}
@@ -98,7 +99,7 @@ void print_array(char *a, int nb)
  * @argv: array
  * Return: 0.
  */
-int main(argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int i, c, len1, len2, lenres;
 	char E[6] = {'E', 'r', 'r', 'o', 'r', '\n'};

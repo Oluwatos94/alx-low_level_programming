@@ -5,7 +5,7 @@
  * @ptr: pointer
  * @old_size: Old size.
  * @new_size: New size.
- * Reurn: pointer
+ * Return: pointer
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
